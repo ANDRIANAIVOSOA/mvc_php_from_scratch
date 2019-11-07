@@ -1,14 +1,12 @@
-{
-	"name": "collectify",
-	"licence": "MIT",
-	"type": "project",
-	"description": "outils d aministration d collectify",
-	"autoload": {
-		"psr-0": {
-			"":"src/"
-		}
-	},
-	"require":{
-		
-	}
-}
+/**
+*Base de donnée
+*/
+define('DB_HOST':'localhost');
+define('DB_NAME':'collectify');
+define('DB_USER':'root');
+define('DB_PASSWORD':"");
+
+/**
+*Config de redbean
+*/
+define("REDBEAN":"");
