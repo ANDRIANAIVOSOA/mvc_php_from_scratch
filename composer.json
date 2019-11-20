@@ -4,10 +4,8 @@
 	"type": "project",
 	"description": "outils d aministration d collectify",
 	"autoload": {
-		"psr-0": {
-			"":"src/"
-		}
-	},
+        "psr-4": { "": "src/" }
+    },
 	"require":{
 		"gabordemooij/redbean": "dev-master"
 	}
