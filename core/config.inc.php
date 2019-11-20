@@ -1,12 +1,14 @@
+<?php
 /**
-*Base de donnée
-*/
-define('DB_HOST':'localhost');
-define('DB_NAME':'collectify');
-define('DB_USER':'root');
-define('DB_PASSWORD':"");
+ * Base de donnée
+ */
+define('DB_TYPE','mysql');	
+define('DB_HOST','localhost');
+define('DB_NAME','collectify');
+define('DB_USER','root');
+define('DB_PASSWORD',"");
 
 /**
-*Config de redbean
-*/
-define("REDBEAN":"");
+ * Redbean configuration
+ */
+define('REDBEAN_MODEL_PREFIX', '\\collectify\\Model\\');
